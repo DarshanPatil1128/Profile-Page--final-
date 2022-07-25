@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Profile Page</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="nav">
+            <h1 class="nav-title">Profile</h1>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="active">My Profile</a></li>
+                <li><a href="#">Find Connections</a></li>
+                <li><button class="btn">Sign Out</button></li>
+            </ul>
+        </div>
+        <div class="everything">
+            <div class="left">
+            
+                <div class="main-box">
+                    <div class="card-header">
+                        <img src="img/jane-m.jpg" alt="jane" class="avatar-m">
+                    </div>
+                    <div class="body">
+                        <h1 id="username">Jane Doe</h1>
+                        <div class="location">
+                            <img src="img/map-marker.png" alt="map icon" width="20" height="30">
+                            <div class="txt">
+                                <h2>Seattle</h2>
+                            </div>
+                        </div>
+                        <div class="bio">
+                            <h3>Developer | Engineer | Problem Solver
+                                Master of shadows and the Internet!
+                            </h3>
+                        </div>
+                        <div class="editprof">
+                            <img src="img/gear.png" alt="map icon" width="20" height="20">
+                            <div class="txt2">
+                                <p onclick="edit()"><a href="#">edit profile</a></p>                   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="education">
+                    <div class="edu-title">
+                        <div class="tet">
+                            <h4>Education</h4>
+                        </div>
+                    </div>
+                    <div class="experience">
+                        <h2>Coding Dojo - Full Stack Bootcamp</h2>
+                        <h3 style="color:Gray;" >Dec 2019 - Mar 2020</h3>
+                        <h3>Triple Black Beltl in Python, MERM, and C#</h3>
+                    </div>
+                </div>    
+            </div>
+            
+            <div class="right">
+                <div class="connections">
+                    <div class="conn-box">
+                        <div class="con-title">
+                            <div class="tet">                   
+                                <h3>Connection Requests</h3>
+                            </div>
+                        </div>
+                        <div id="per" class="person">
+                            <div>
+                                <img src="img/todd-s.jpg" alt="map icon" width="35" height="35">
+                            </div>
+                            <div class="name">
+                                <h2>Todd E</h2>
+                            </div>
+                            <div class="accept" onclick="hide(0)"> 
+                                <img src="img/accept-circle.png" alt="map icon" width="30" height= "30">
+                                <img src="img/close-circle.png" alt="map icon" width="30" height= "30">
+                            </div>
+                        </div>
+        
+                        <div id="per1" class="person1">
+                            <div class="Phil-pic">
+                                <img src="img/phil-s.jpg" alt="map icon" width="35" height="35">
+                            </div>
+                            <div class="name">
+                                <h2>Phil K</h2>
+                            </div>
+                            
+                            <div class="accept" onclick="hide(1)">
+                                <img src="img/accept-circle.png" alt="map icon" width="30" height="30">
+                                <img src="img/close-circle.png" alt="map icon" width="30" height="30">
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+        
+                <div class="your-connections">
+                    <div class="you-con-title">
+                        <div class="tet">
+                            <h3>Your Connections</h3>
+                        </div>
+                    </div>
+                    <div class="person">
+                        <div>
+                            <img src="img/adrien-s.jpg" alt="map icon" width="35" height="35">
+                        </div>
+                        <div class="name">
+                            <h2>Adrien D</h2>
+                        </div>
+                        </div>
+        
+                    <div class="person">
+                        <div>
+                            <img src="img/anne-s.jpg" alt="map icon" width="35" height="35">
+                        </div>
+                        <div class="name">
+                            <h2>Anne J</h2>
+                        </div>
+                            
+                    </div>
+        
+                    <div class="person">
+                        <div>
+                            <img src="img/alayne-s.jpg" alt="map icon" width="35" height="35">
+                        </div>
+                        <div class="name">
+                            <h2>Alayne T</h2>
+                        </div>
+                            
+                    </div>
+        
+                    <div class="person">
+                        <div>
+                            <img src="img/arry-s.jpg" alt="map icon" width="35" height="35">
+                        </div>
+                        <div class="name">
+                            <h2>Arry Y</h2>
+                        </div>
+                            
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        
+    
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

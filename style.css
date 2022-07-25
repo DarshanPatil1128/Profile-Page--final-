@@ -1,0 +1,189 @@
+
+* {
+    /* margin:0px;
+    border:0px;
+    padding:0px; */
+    /* box-sizing:border-box; */
+    vertical-align:top;
+    /* outline: red 1px dotted; */
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    border: 3px solid black;
+    /* display:inline-block; */
+}
+
+.everything{
+    display:inline-flex;
+}
+
+.nav-title{
+    color:white;
+    margin: 10px;
+}
+
+.nav{
+    margin: 0px;
+    width: 1000px;
+    height: 80px;
+    background-color: black;
+    align-items: center;
+    display: inline-flex;
+    padding:0%;
+}
+
+.nav-links{
+    display:flex;
+    width: 1000px;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+.main-box{
+    margin-left: 100px;
+    margin-top: 75px;
+    width: 450px;
+    height: 500px;
+    border: 3px solid gray;
+    /* padding-left: 10px; */
+    /* display:inline-block; */
+
+}
+.body{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.card-header{
+    background-color: #17a2b8;
+    height: 85px;
+    margin-bottom: 70px;
+    display: block;
+}
+
+.banner{
+    width: 450px;
+    height: 90px;
+    background-color: purple;
+}
+
+.location{
+    display:flex;
+    align-items: center;
+}
+.txt{
+    padding-left:10px;
+}
+
+.editprof{
+    display:flex;
+    align-items: center;
+}
+
+.txt2{
+    padding-left:10px;
+}
+
+.education{
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 450px;
+    height: 350px;
+    border: 3px solid gray;
+    padding-left: 10px black;
+    /* display:inline-block; */
+
+
+}
+
+.edu-title{
+    display:inline-flex;
+    width:450px;
+    height:50px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+.con-title{
+    display:inline-flex;
+    width:250px;
+    height:50px;
+    background-color: black;
+    color: white;
+    align-items: center;
+}
+
+.you-con-title{
+    display:inline-flex;
+    width:250px;
+    height:50px;
+        background-color: black;
+    color: white;
+    align-items: center;
+}
+
+.tet{
+    margin-left: 30px;
+}
+.connections{
+    /* display: inline-flex; */
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 250px;
+    height: 200px;
+    border: 3px solid gray;
+}
+
+.your-connections{
+    /* display: inline-block; */
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 250px;
+    height: 320px;
+    border: 3px solid gray;
+
+}
+
+.todd{
+    display:flex;
+    align-items: center;
+    margin-left: 10px;
+
+}
+
+.accept{
+    align-items: center;
+    margin-left: 30px;
+
+}
+
+.deny{
+    margin-left: 10px;
+}
+
+
+
+.name{
+    margin-left: 10px;
+}
+
+
+
+.person, .person1{
+    display:flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.avatar-m {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 150px;
+    padding: 5px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
